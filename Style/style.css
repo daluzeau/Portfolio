@@ -247,7 +247,7 @@ font-size: 3rem;
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--text-color);
+    color: black;
     border-radius: .8rem;
     margin: .7rem 0;
 }
@@ -258,6 +258,7 @@ font-size: 3rem;
 
 .contact form textarea{
     resize: none;
+    color: black;
 }
 .contact form .btn{
     margin-top: 3rem;
@@ -298,9 +299,6 @@ font-size: 3rem;
     section {
         padding: 10rem 3%;
     }
-    .services {
-        padding: 7rem;
-    }
     .portfolio{
         padding-bottom: 7rem;
     }
@@ -334,13 +332,6 @@ font-size: 3rem;
         width: 60vh;
         margin-top: 4rem;
     }
-    .about {
-        flex-direction: column;
-    }
-    .about-img img{
-        width: 90vh;
-        margin-top: 4rem;
-    }
     .services h2{
         margin-bottom: 3rem;
     }
@@ -353,15 +344,14 @@ font-size: 3rem;
         grid-template-columns: 1fr;
     }
     .home-img img{
-        width: 100vh;
-        margin-top: 4rem;
+        max-width: 50vh;
     }
 }
-@media (max-width: 617px){
+@media (max-width: 450px){
     html{
         font-size: 50%;
     }
     .contact form .input-box input{
         width: 100%;
-    }
+    } 
 }
