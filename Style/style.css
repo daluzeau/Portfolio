@@ -92,17 +92,7 @@ span {
     border-radius: 3rem;
 }
 
-@keyframes floatImage {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-1rem);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
+
 
 .home-content p{
   font-size: 1.6rem;
