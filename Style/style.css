@@ -72,7 +72,8 @@ section {
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
-    padding: 1rem;
+    padding:1rem;
+    margin: 1rem;
 }
 .home-content h3:nth-of-type(2) {
     margin-bottom: 2rem;
@@ -90,12 +91,14 @@ span {
     width: 50vh;
     animation: floatImage 2s ease-in-out infinite;
     border-radius: 3rem;
+    margin-bottom: 4rem;
 }
 
 
 
 .home-content p{
   font-size: 1.6rem;
+  margin: 2rem;
 }
 
 .social-media a{
